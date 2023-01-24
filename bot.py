@@ -20,18 +20,18 @@ intents = discord.Intents.all();
 bot = commands.Bot(command_prefix=prefix, intents=intents, help_command=None);
 
 color = discord.Color.dark_gold(); # ΕΔΩ ΒΑΣΕΤΕ ΤΟ ΧΡΩΜΑ ΣΤΟ EMBED ΣΑΣ
-servername = 'Clout Roleplay' # ΕΔΩ ΒΑΖΕΤΕ ΤΟ ΟΝΟΜΑ ΤΟΥ ΣΕΡΒΕΡ ΣΑΣ
-imagelink = 'https://cdn.discordapp.com/attachments/818847840599932958/1067532355293696070/image.png' # ΕΔΩ ΒΑΖΕΤΕ ΤΟ LINK ΤΗΣ ΕΙΚΟΝΑΣ ΤΟΥ ΣΕΡΒΕΡ
+servername = '' # ΕΔΩ ΒΑΖΕΤΕ ΤΟ ΟΝΟΜΑ ΤΟΥ ΣΕΡΒΕΡ ΣΑΣ
+imagelink = '' # ΕΔΩ ΒΑΖΕΤΕ ΤΟ LINK ΤΗΣ ΕΙΚΟΝΑΣ ΤΟΥ ΣΕΡΒΕΡ
 
 # ROLE IDS
-StaffRole = 870051182599622676 # Εδώ ΄βάζεις το role id του Staff
-EmsRole = 1067478397808287777 # Εδώ ΄βάζεις το role id του Ems
-PoliceRole = 1067478318103924766 # Εδώ ΄βάζεις το role id του Police
+StaffRole =  # Εδώ βάζεις το role id του Staff
+EmsRole =  # Εδώ ΄βάζεις το role id του Ems
+PoliceRole =  # Εδώ ΄βάζεις το role id του Police
 
 # APPLICATION LINKS
-StaffLink = 'https://github.com/johngiomilas' # Εδώ ΄βάζεις το application link (Google Documents) του Police
-EmsLink = 'https://github.com/johngiomilas' # Εδώ ΄βάζεις το application link (Google Documents) του Ems
-PoliceLink = 'https://github.com/johngiomilas' # Εδώ ΄βάζεις το application link (Google Documents) του Staff
+StaffLink = '' # Εδώ ΄βάζεις το application link (Google Documents) του Police
+EmsLink = '' # Εδώ ΄βάζεις το application link (Google Documents) του Ems
+PoliceLink = '' # Εδώ ΄βάζεις το application link (Google Documents) του Staff
 
 @bot.event  
 async def on_ready():
